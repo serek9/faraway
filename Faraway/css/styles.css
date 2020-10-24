@@ -278,7 +278,7 @@ button,
 select,
 optgroup,
 textarea {
-  margin: 0;
+  margin: 6px;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -2439,7 +2439,7 @@ textarea.form-control {
   }
   .form-inline .form-control {
     display: inline-block;
-    width: auto;
+    /*width: auto;*/
     vertical-align: middle;
   }
   .form-inline .form-control-plaintext {
@@ -10239,6 +10239,14 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
   font-size: 2rem;
+}
+
+#thiTitle{
+  font-family: "Autoradiographic";
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 255));
+  /* -webkit-text-fill-color: transparent; */
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 
 .masthead h1{
